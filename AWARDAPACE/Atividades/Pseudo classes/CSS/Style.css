@@ -1,0 +1,188 @@
+table,
+tr,
+th,
+td {
+  border: 1px solid darkgrey;
+}
+
+#active:active {
+  background: darkgreen;
+}
+
+#checked:checked {
+  width: 70px;
+  height: 70px;
+}
+
+#disabled:disabled {
+  background: #dddddd;
+}
+
+#empty:empty {
+  width: 100px;
+  height: 20px;
+  background: #ff0000;
+}
+
+#enabled:enabled {
+  background: #ffff00;
+}
+
+#first-child:first-child {
+  background-color: yellow;
+}
+
+#first-of-type:first-of-type {
+  background: red;
+}
+
+#focus:focus {
+  background-color: yellow;
+}
+
+#hover:hover {
+  background-color: yellow;
+}
+
+#in-range:in-range {
+  border: 2px solid yellow;
+}
+
+#invalid:invalid {
+  border: 2px solid red;
+}
+
+#lang:lang(it) {
+  background: yellow;
+}
+
+#last-child:last-child {
+  background: #ff0000;
+}
+
+#last-of-type:last-of-type {
+  background: #ff0000;
+}
+
+#link:link {
+  background-color: yellow;
+}
+
+#not:not(p) {
+  background: #ff0000;
+}
+
+#nth-child:nth-child(2) {
+  background: red;
+}
+
+#nth-last-child:nth-last-child(2) {
+  background: red;
+}
+
+#nth-last-of-type:nth-last-of-type(2) {
+  background: red;
+}
+
+#nth-of-type:nth-of-type(2) {
+  background: red;
+}
+
+#only-of-type:only-of-type {
+  background: #ff0000;
+}
+
+#only-child:only-child {
+  background: #ff0000;
+}
+
+#optional:optional {
+  background-color: yellow;
+}
+
+#out-of-range:out-of-range {
+  border: 2px solid red;
+}
+
+#read-only:read-only {
+  background-color: yellow;
+}
+
+#read-write:read-write {
+  background-color: yellow;
+}
+
+#required:required {
+  background-color: yellow;
+}
+
+:root {
+  background: #f1f1f1;
+}
+
+:target {
+  border: 2px solid #d4d4d4;
+  background-color: #e5eecc;
+}
+
+:valid {
+  background-color: yellow;
+}
+
+:visited {
+  color: pink;
+}
+
+/* pseudo class end */
+
+#after::after {
+  content: " - Remember this";
+}
+
+#before::before {
+  content: "Read this: ";
+}
+
+#first-letter::first-letter {
+  font-size: 200%;
+  color: #8a2be2;
+}
+
+#first-line::first-line {
+  background-color: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+/* pseudo element end */
+
+.selector[target] {
+  background-color: yellow;
+}
+
+.selector[target="_blank"] {
+  background-color: yellow;
+}
+
+.selector[title~="flower"] {
+  border: 5px solid yellow;
+}
+
+.selector[lang|="en"] {
+  background-color: yellow;
+}
+
+div[class^="test"] {
+  background: #ffff00;
+}
+
+div[class$="test2"] {
+  background: #ffff00;
+}
+
+div[class*="test"] {
+  background: #ffff00;
+}

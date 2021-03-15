@@ -1,0 +1,47 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body, input,a {
+    color: black;
+}
+
+body {
+    background-color: rgb(160, 160, 160);
+}
+
+form {
+    position: relative;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    
+}
+.form-group {  
+    margin: 10px 0px;
+}
+.form-inline {
+    position: relative;
+    left: 490px;
+    width: 30%;
+    height: 300px;
+    border-radius: 5px;
+    border: 5px solid black;
+  
+}
+
+.btn {
+    margin: 20px 0;
+    color: white;
+    margin: 20px 0px;
+    background: black;
+}
+
+.sr-only {
+    margin: 20px 0px;
+}

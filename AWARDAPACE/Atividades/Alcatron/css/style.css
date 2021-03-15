@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Archivo', sans-serif;
+}
+
+/* menu la emcima */
+#primeiro_menu{
+    background-color: #F42E2E;
+}
+.menu{
+    margin-left: 50px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#primeiro_menu ul li{display: inline;
+    border-right: 1px solid black;
+}
+
+#primeiro_menu ul li a {
+    padding: 10px;
+    display: inline-block;
+    /* Visual dos links!! */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+
+.direita{
+    float: right;
+    margin-right: 122px;
+}
+
+/* menu do meio */
+#segundo_menu{
+    margin-top: 20px;
+}
+.logo{
+    margin-left: 75px;
+    font-size: 45px;
+}
+
+
+.segundo_menu ul{
+    list-style: none;
+}
+
+#segundo_menu ul li{
+    display: inline;
+
+}
+#segundo_menu li:first-of-type{
+    margin-left: 326px;
+}
+#segundo_menu ul li a {
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    /* Visual dos links!! */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: #F42E2E;
+}
+
+#segundo_menu ul li a:hover{
+    color: #6d6d66;
+}
+.selecionado{
+    background-color: #F42E2E;
+    border-radius: 10px;
+}
+
+/* foto */
+.foto_grande{
+    margin-top: 25px;
+    margin-left: 75px;
+    width: 1300px;
+    height: 500px;
+}
+.foto_grande img{
+    width: 1300px;
+    height: 500px;
+}
+/* bloquinhos */
+#qualidades{
+    margin-left: 50px;
+}
+.quadrado{
+    background-color:#F42E2E;
+    margin-left: 26px;
+    margin-top: 30px;
+    width: 305px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    -webkit-box-shadow: 2px 5px 15px 5px rgba(244,46,46,0.53); 
+    box-shadow: 2px 5px 15px 5px rgba(244,46,46,0.53);
+}
+.texto{
+    margin-top: 30px;
+}
+.descricao{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.saiba{
+
+    width: 305px;
+    height: 50px;
+    background-color: white;
+    margin-top: 31px;
+    color: #F42E2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

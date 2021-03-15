@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+::-webkit-scrollbar { width: 7px; }
+::-webkit-scrollbar-track { background: #000000; }
+::-webkit-scrollbar-thumb { background-color: #aaa; border: 3px solid black; }
+
+
+body {
+    align-items: center;
+    background: url(https://image.ibb.co/bG1hBS/image.png); background-color: #000000;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+header img{
+    display: block;
+}
+#Pontes{
+    background: url(http://78.media.tumblr.com/1704bfe2f37d151ecb62a30b714f1b8a/tumblr_o0i7d582pQ1rnbw6mo1_540.gif) center bottom;
+    background-size: 425px;
+}
+.Noite{
+    background:rgba(2,11,28,0.5);
+    width: 380px;
+    max-height: 380px;
+    padding: 50px;
+}
+.title {
+    height: 246px; width: 250px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #f3f3f3;
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 6pt;
+    background: rgba(30,34,44,0.65);
+    border: 2px solid #f3f3f3;
+    letter-spacing: 3px;
+}
+.title h1 {
+    text-transform: uppercase;
+    font-size: 30pt;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0px;
+    color: #4f6a7d;
+    font-style: italic;
+}
+#welcome{
+    vertical-align: middle;
+    background: rgba(12, 15, 22,0.75);
+    padding: 30px;
+    width: 380px;
+}
+.synopsis {
+    width: 320px;
+    height: 165px;
+    overflow-y: scroll;
+    background-color: #171a21;
+    border: 20px solid #171a21;
+    font-family: "Roboto Mono";
+    color: #bbb;
+    font-size: 9pt;
+    padding-right: 10px;
+}
+.synopsis p {
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    line-height: 150%;
+}
+.synopsis p b {
+    text-transform: uppercase;
+    color: #4f6a7d;
+    letter-spacing: 1px;
+}
+.weather {
+    margin-top: 20px;
+    width: 320px;
+    border: 20px solid #171a21;
+    background: url(https://78.media.tumblr.com/e5352f3a3e22d36e9d359320f1bc97a8/tumblr_mwjmcxUEoh1qztgoio1_500.gif) center;
+    background-size: 280px;
+    height: 100px;
+    overflow: hidden; }
+.weather-screen {
+    background:rgba(30,34,44,0.75);
+    height: 60px;
+}
+.weather-screen b {
+    font-family: "a-otf-midashi-mi-ma31-pr6n";
+    color: black;
+    font-size: 47pt;
+    line-height: 70px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    opacity:0.55;
+    -moz-opacity:0.55;
+}
+.weather-tag {
+    font-family: "Roboto Mono";
+    font-size: 6pt;
+    color: #f3f3f3;
+    font-weight: 600;
+    letter-spacing: 3px;
+    position: relative;
+    display: block;
+    float: right;
+    top: -40px;
+    right: 10px;
+}
+.weather-tag b {
+    font-size: 12pt;
+    line-height: 12pt;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-left: -1px;
+}
+
+
